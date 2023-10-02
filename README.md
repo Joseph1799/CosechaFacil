@@ -18,7 +18,7 @@ La API de Cosecha Fácil proporciona acceso a datos actualizados sobre los preci
 La API estará disponible en `http://localhost:8080/api`.
 
 ## Documentación
-Para obtener información detallada sobre cómo utilizar la API y sus rutas, consulte nuestra [documentación en línea](link_a_la_documentacion).
+Para obtener información detallada sobre cómo utilizar la API y sus rutas, consulte nuestra [documentación en línea](https://github.com/Joseph1799/CosechaFacil-API/blob/master/Documentaci%C3%B3n.md).
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
