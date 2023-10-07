@@ -1,16 +1,16 @@
 # Automatización con Python en la Base de Datos
 
-En este apartado, se utilizará el lenguaje de programación Python para llevar a cabo tareas de automatización que optimizarán el flujo de trabajo relacionado con la base de datos. Esto incluye la importación de datos de precios de vegetales desde fuentes externas y la actualización periódica de la información.
+En este apartado, se empleará el lenguaje de programación Python para llevar a cabo tareas de automatización que optimizarán el flujo de trabajo relacionado con la base de datos. Estas tareas incluyen la importación de datos de precios de vegetales desde fuentes externas y la actualización periódica de la información.
 
 ## Funcionalidades Clave
 
-- **Automatización de Importación de Datos:** Se desarrollarán scripts en Python que permitirán importar datos de precios de vegetales desde diversas fuentes externas. Esta automatización garantizará la integridad y la actualización constante de la base de datos.
+- **Automatización de la Importación de Datos:** Se desarrollarán scripts en Python que permitirán importar datos de precios de vegetales desde diversas fuentes externas. Esta automatización garantizará la integridad y la actualización constante de la base de datos.
 
 - **Programación de Tareas Periódicas:** Se crearán scripts programados para ejecutarse de manera periódica, lo que asegurará que la información en la base de datos esté siempre actualizada y refleje los cambios en los precios de los vegetales.
 
-## Iniciando el Proyecto
+## Inicio del Proyecto
 
-Para comenzar a trabajar en el proyecto:
+Para comenzar a trabajar en el proyecto, sigue estos pasos:
 
 1. Clona este repositorio en tu entorno de desarrollo local.
 
@@ -27,3 +27,4 @@ Para comenzar a trabajar en el proyecto:
 ## Licencia
 
 Este proyecto se distribuye bajo la [licencia MIT](LICENSE).
+
