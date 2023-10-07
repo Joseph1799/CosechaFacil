@@ -7,7 +7,7 @@ La API Cosecha Fácil proporciona acceso a datos actualizados sobre los precios 
 Para utilizar la API de Cosecha Fácil, necesitarás lo siguiente:
 
 - Acceso a Internet.
-- Una cuenta de usuario y una clave de acceso proporcionadas por Cosecha Fácil.
+- Una cuenta de usuario y una clave de acceso proporcionadas por éste usuario.
 - Conocimiento básico de las solicitudes HTTP y cómo procesar las respuestas JSON.
 
 ## Autenticación
