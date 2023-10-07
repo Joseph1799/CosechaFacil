@@ -15,7 +15,7 @@ La API de Cosecha Fácil proporciona acceso a datos actualizados sobre los preci
 - Configura la base de datos en `application.properties` o mediante variables de entorno.
 - Ejecuta la aplicación: `mvn spring-boot:run`
 
-La API estará disponible en `http://localhost:8080/api`.
+La API estará disponible en `http://3.136.55.178:8080/api`.
 
 ## Documentación
 Para obtener información detallada sobre cómo utilizar la API y sus rutas, consulte nuestra [documentación en línea](https://github.com/Joseph1799/CosechaFacil-API/blob/master/Documentaci%C3%B3n.md).
