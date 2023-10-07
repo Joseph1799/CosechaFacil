@@ -1,0 +1,2 @@
+Se diseñará la interfaz de usuario de una aplicación Android en Android Studio.
+Se implementara la lógica de la aplicación en Kotlin y se utilizarán las API proporcionadas por el backend (Rest API Java) para obtener información de precios y realizar cálculos.

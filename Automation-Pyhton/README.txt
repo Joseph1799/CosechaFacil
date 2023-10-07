@@ -1,0 +1,2 @@
+Se utilizara Python para cualquier tarea de automatización que se necesite, como importar datos de precios de vegetales en la base de datos desde fuentes externas.
+Se programarán scripts de Python que se ejecuten periódicamente para mantener actualizada la información.
