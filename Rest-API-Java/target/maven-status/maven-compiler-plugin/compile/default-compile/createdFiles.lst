@@ -1,0 +1,7 @@
+com\pima\CosechaFacil\Service\VegetalService.class
+com\pima\CosechaFacil\Dto\VegetalDTO.class
+com\pima\CosechaFacil\CosechaFacilApplication.class
+com\pima\CosechaFacil\Exception\VegetalNotFoundException.class
+com\pima\CosechaFacil\Repository\VegetalRepository.class
+com\pima\CosechaFacil\Controller\VegetalController.class
+com\pima\CosechaFacil\Model\Vegetal.class

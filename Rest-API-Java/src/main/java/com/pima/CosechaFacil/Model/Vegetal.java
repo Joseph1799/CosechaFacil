@@ -1,5 +1,6 @@
 package com.pima.CosechaFacil.Model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -20,6 +21,7 @@ public class Vegetal {
 
     @Temporal(TemporalType.DATE)
     @Column(name = "fecha_de_plaza")
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private Date fecha;
 
     @Column(name = "producto")
