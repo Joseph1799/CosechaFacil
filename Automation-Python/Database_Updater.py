@@ -66,7 +66,7 @@ def update_Database():
                     producto, unidad, minimo, maximo, moda, promedio = row
                 else:
                     # Si la fila no tiene 6 valores, asignar valores predeterminados
-                    producto, unidad, minimo, maximo, moda, promedio = row[:5]  # Tomar solo los primeros 6 valores
+                    producto, unidad, minimo, maximo, moda, promedio = row[:6]  # Tomar solo los primeros 6 valores
 
                 # Utilizar expresiones regulares para extraer el nombre del producto y la fecha
                 matches = re.findall(r'(.+)\s+(\d{1,2}/\d{1,2}/\d{4})$', producto)
