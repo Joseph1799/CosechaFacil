@@ -105,13 +105,13 @@ def update_Database():
     ssh_host = '192.168.0.29'
     ssh_port = 22
     ssh_username = 'ubuntu'
-    ssh_password = '2653'
+    ssh_password = '********'
 
     # Configuración de la conexión MySQL a través del túnel SSH
     db_host = 'localhost'
     db_port = 3306
-    db_user = 'cosecha_facil'
-    db_password = 'sqlpwd'
+    db_user = 'user'
+    db_password = '************'
     db_name = 'cosecha_facil_db'
 
     try:
