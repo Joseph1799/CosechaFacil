@@ -14,9 +14,9 @@ from sshtunnel import SSHTunnelForwarder
 
 
 # Ruta al archivo que contiene/contendrá los nombres de los archivos PDF descargados.
-downloaded_files_log = 'C:\\Users\\josep\\Documents\\CosechaFacilCR\\PIMA_PDFs_Registro\\downloaded_files.txt'
+downloaded_files_log = 'C:\\Users\\user\\Documents\\CosechaFacilCR\\PDFs_Registro\\downloaded_files.txt'
 # Ruta del archivo PDF
-pdf_dir = "C:/Users/josep/Documents/CosechaFacilCR/PIMA_PDFs_Registro"
+pdf_dir = "C:/Users/user/Documents/CosechaFacilCR/PDFs_Registro"
 
 def load_downloaded_files():
     if os.path.exists(downloaded_files_log):
@@ -102,9 +102,9 @@ def update_Database():
         # print(item)
 
     # Conexión SSH y MySQL
-    ssh_host = '192.168.0.29'
+    ssh_host = '0.0.0.0'
     ssh_port = 22
-    ssh_username = 'ubuntu'
+    ssh_username = 'username'
     ssh_password = '********'
 
     # Configuración de la conexión MySQL a través del túnel SSH
@@ -112,7 +112,7 @@ def update_Database():
     db_port = 3306
     db_user = 'user'
     db_password = '************'
-    db_name = 'cosecha_facil_db'
+    db_name = 'database_name'
 
     try:
         # Configuración del túnel SSH
@@ -222,7 +222,7 @@ def check_and_download_email():
                     print("Date: " + latest_message.date)
                     print("Preview: " + latest_message.snippet)
                     # Guardar el archivo PDF adjunto en la ubicación deseada.
-                    attachment.save('C:\\Users\\josep\\Documents\\CosechaFacilCR\\PIMA_PDFs_Registro\\' + attachment.filename, overwrite=True)
+                    attachment.save('C:\\Users\\user\\Documents\\CosechaFacilCR\\PDFs_Registro\\' + attachment.filename, overwrite=True)
                     print("PDF descargado:", attachment.filename)
                     # Registrar el archivo descargado.
                     save_downloaded_file(attachment.filename)
